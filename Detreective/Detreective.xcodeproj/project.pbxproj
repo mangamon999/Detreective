@@ -29,6 +29,7 @@
 		AE0BD848172D6274000BB401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0BD815172D6274000BB401 /* Foundation.framework */; };
 		AE0BD850172D6274000BB401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE0BD84E172D6274000BB401 /* InfoPlist.strings */; };
 		AE0BD853172D6274000BB401 /* DetreectiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BD852172D6274000BB401 /* DetreectiveTests.m */; };
+		AE679C87174C5C810002DD87 /* BigView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE679C86174C5C810002DD87 /* BigView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		AE0BD84F172D6274000BB401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE0BD851172D6274000BB401 /* DetreectiveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetreectiveTests.h; sourceTree = "<group>"; };
 		AE0BD852172D6274000BB401 /* DetreectiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetreectiveTests.m; sourceTree = "<group>"; };
+		AE679C86174C5C810002DD87 /* BigView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +134,14 @@
 			children = (
 				AE0BD822172D6274000BB401 /* AppDelegate.h */,
 				AE0BD823172D6274000BB401 /* AppDelegate.m */,
-				AEF69D8317388E0200280D5C /* Storyboards */,
 				AE0BD831172D6274000BB401 /* FirstViewController.h */,
 				AE0BD832172D6274000BB401 /* FirstViewController.m */,
 				AE0BD838172D6274000BB401 /* SecondViewController.h */,
 				AE0BD839172D6274000BB401 /* SecondViewController.m */,
+				AEF69D8317388E0200280D5C /* Storyboards */,
 				AEF69D8417388E2900280D5C /* Resources */,
 				AE0BD81A172D6274000BB401 /* Supporting Files */,
+				AE679C86174C5C810002DD87 /* BigView.xib */,
 			);
 			path = Detreective;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				AE0BD837172D6274000BB401 /* first@2x.png in Resources */,
 				AE0BD83C172D6274000BB401 /* second.png in Resources */,
 				AE0BD83E172D6274000BB401 /* second@2x.png in Resources */,
+				AE679C87174C5C810002DD87 /* BigView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
