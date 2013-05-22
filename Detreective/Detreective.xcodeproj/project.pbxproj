@@ -132,16 +132,12 @@
 			children = (
 				AE0BD822172D6274000BB401 /* AppDelegate.h */,
 				AE0BD823172D6274000BB401 /* AppDelegate.m */,
-				AE0BD82B172D6274000BB401 /* MainStoryboard_iPhone.storyboard */,
-				AE0BD82E172D6274000BB401 /* MainStoryboard_iPad.storyboard */,
+				AEF69D8317388E0200280D5C /* Storyboards */,
 				AE0BD831172D6274000BB401 /* FirstViewController.h */,
 				AE0BD832172D6274000BB401 /* FirstViewController.m */,
-				AE0BD834172D6274000BB401 /* first.png */,
-				AE0BD836172D6274000BB401 /* first@2x.png */,
 				AE0BD838172D6274000BB401 /* SecondViewController.h */,
 				AE0BD839172D6274000BB401 /* SecondViewController.m */,
-				AE0BD83B172D6274000BB401 /* second.png */,
-				AE0BD83D172D6274000BB401 /* second@2x.png */,
+				AEF69D8417388E2900280D5C /* Resources */,
 				AE0BD81A172D6274000BB401 /* Supporting Files */,
 			);
 			path = Detreective;
@@ -178,6 +174,34 @@
 				AE0BD84E172D6274000BB401 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEF69D8317388E0200280D5C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BD82B172D6274000BB401 /* MainStoryboard_iPhone.storyboard */,
+				AE0BD82E172D6274000BB401 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		AEF69D8417388E2900280D5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEF69D8517388E3D00280D5C /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEF69D8517388E3D00280D5C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BD834172D6274000BB401 /* first.png */,
+				AE0BD836172D6274000BB401 /* first@2x.png */,
+				AE0BD83B172D6274000BB401 /* second.png */,
+				AE0BD83D172D6274000BB401 /* second@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,6 +513,7 @@
 				AE0BD858172D6274000BB401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE0BD859172D6274000BB401 /* Build configuration list for PBXNativeTarget "DetreectiveTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +522,7 @@
 				AE0BD85B172D6274000BB401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
